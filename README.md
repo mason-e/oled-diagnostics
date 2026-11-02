@@ -1,5 +1,7 @@
 # Raspberry Pi OLED Diagnostics Screen
 
+![live display example](./cover.png)
+
 This repo contains scripts and information for setting up a simple diagnostic display on a Raspberry Pi using the [SparkFun Micro OLED](https://www.sparkfun.com/sparkfun-micro-oled-breakout.html)
 
 A shell script obtains and parses system diagnostic information (time, CPU temperature, memory usage and CPU usage), which is fed into a Python script that drives the display.
@@ -17,6 +19,8 @@ The product page contains links to more details on preparing the breakout board.
 | RST | RST | Orange | Pin 18 (GPIO 24) |
 | Data/Command | D/C | Blue | Pin 16 (GPIO 23) |
 | CS | CS | Purple | Pin 24 (GPIO 8) |
+
+![color coded wiring picture](./wiring.png)
 
 ## Software Setup
 
